@@ -5,18 +5,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        // title: 'Hello world',
-        // home: Scaffold(
-        //   appBar: AppBar(
-        //     title: Text('Material App Bar'),
-        //   ),
-        //   body: Center(
-        //     child: Container(
-        //       child: Text('Hello World'),
-        //     ),
-        //   ),
-        // ),
-        home: Center(child: HomePage() ),
-        title: 'Hola mundo',);
+      // title: 'Hello world',
+      // home: Scaffold(
+      //   appBar: AppBar(
+      //     title: Text('Material App Bar'),
+      //   ),
+      //   body: Center(
+      //     child: Container(
+      //       child: Text('Hello World'),
+      //     ),
+      //   ),
+      // ),
+      home: Center(child: HomePage()),
+      title: 'Hola mundo',
+    );
   }
 }
